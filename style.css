@@ -1,0 +1,59 @@
+body {
+    /* Background pattern from Toptal Subtle Patterns */
+    
+    background-image: url("https://avatars.mds.yandex.net/get-pdb/2491787/e7994c7e-b189-445d-b719-72c6bb307d0d/s1200?webp=false");
+    background-repeat: no-repeat;
+    background-size: cover;
+	overflow: hidden;
+}
+h1 {
+  color: whitesmoke;
+  text-align: center;
+}
+
+h2 {
+    color: blue;
+    text-align: left;
+    font-family: 'Lucida Sans';
+}
+
+h3 {
+	color: lightblue;
+	text-align: center;
+
+}
+
+p {
+  font-family: verdana;
+  font-size: 25px;
+  text-align: end;
+}
+
+.glass{
+	background: rgba(193, 15, 15, 0.39);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(2.9px);
+	-webkit-backdrop-filter: blur(2.9px);
+	border: 1px solid rgba(193, 15, 15, 0.3);
+	float:left;
+	animation-duration: 3s;
+	animation-name: slidein;
+}
+
+
+
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+
+  }
+
+  to {
+    margin-left: 0%;
+
+  }
+}
+
